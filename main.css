@@ -1,0 +1,118 @@
+/* common */
+body {
+  color: #333333;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+li {
+  list-style: none;
+}
+a {
+  color: #333333;
+  text-decoration: none;
+}
+
+/* header */
+header {
+  background-color: royalblue;
+
+}
+header .inner {
+  width: 1200px;
+  height: 120px;
+  margin: 0 auto;
+  background-color: orange;
+  position: relative
+}
+header .inner .logo {
+  height: 20px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto
+}
+header .sub-menu {
+
+}
+header .sub-menu ul.s-menu {
+  display: flex;
+  right: 1px;
+}
+header .sub-menu ul.s-menu li {
+
+}
+header .sub-menu ul.s-menu li a {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 11px 16px;
+  display: block;
+  color: #333;
+}
+header .sub-menu ul.s-menu li a:hover {
+  color: blue;
+}
+
+/* old Testament */
+.old-testament {
+  margin-top: 10px;
+  position: relative;
+  padding-top: 1px;
+  background-color: aqua;
+}
+.old-testament .old-header{
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 700;
+}
+.old-line-common {
+  background-color: darkcyan;
+  display: flex;
+}
+.old-line-common li{
+  margin-top: 5px;
+}
+.old-line-common .old-line-first {
+  width: 400px;
+  background-color: floralwhite;
+}
+.old-line-common .old-line-second {
+  width: 400px;
+  background-color: whitesmoke;
+}
+.old-line-common .old-line-third {
+  width: 400px;
+  background-color: wheat;
+}
+
+/* new Testament */
+.new-testament {
+  margin-top: 10px;
+  position: relative;
+  padding-top: 1px;
+  background-color: aqua;
+}
+.new-testament .new-header{
+  font-size: 20px;
+  margin: 10px;
+  font-weight: 700;
+}
+.new-line-common {
+  background-color: darkcyan;
+  display: flex;
+}
+.new-line-common li {
+  margin-top: 5px;
+}
+.new-line-common .new-line-first {
+  width: 400px;
+  background-color: floralwhite;
+}
+.new-line-common .new-line-second {
+  width: 400px;
+  background-color: whitesmoke;
+}
+.new-line-common .new-line-third {
+  width: 400px;
+  background-color: wheat;
+}
